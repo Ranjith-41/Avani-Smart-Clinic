@@ -1,0 +1,213 @@
+/* Home.css */
+*{
+   margin-top: 0;
+}
+.one{
+    position:absolute!important;
+    left: 0;
+    top: 190px;
+    right: 50%;
+    font-weight: 500;
+   }
+#container1{
+   background-color:white!important;
+   padding:20px;
+   background-size: cover;
+}  
+    
+  
+ .two{
+    font-size:26px;
+    padding:15px;
+    font-weight: 800;
+ }
+ .img1{
+    width: 100%;
+    height: 80vh;
+ }
+ .Row{
+    text-align: center;
+    height: 30vh;
+    background-color: blue;
+    color: blueviolet;
+ }
+ #col{
+    color:white;
+    text-align:center;
+    height:60vh;
+    width: 100%;
+    /*background-image:url('/public/image/consult1.jpg');*/
+    background-color: gray;
+    background-size:100%;
+    background-repeat: no-repeat;
+    padding-top: 30px;
+    padding-right: 10px;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+
+ }
+ h4{
+    padding-bottom: 20px;
+ }
+ #one{
+   margin-bottom: 20px;
+ }
+
+ .vlog-section {
+   padding: 50px;
+   background-color: #f4f4f4;
+   text-align: center;
+ }
+ .vlog-card {
+   transition: transform 0.3s;
+   box-shadow:5px 8px 8px black;
+   margin:15px 15px 15px 15px;
+   height:auto;
+   
+ }
+ .vlog-card:hover {
+   transform: scale(1.05);
+   box-shadow:5px 8px 8px black;
+ }
+ .card-img-top {
+   height: 200px;
+   object-fit:fill;
+ }
+ .btn-watch-now {
+   background-color: #ff0000!important;
+   color: white;
+   padding: 8px 20px;
+   border: none !important;
+   border-radius: 5px;
+   font-size: 16px;
+   cursor: pointer;
+   margin-right:20px;
+   
+ }
+ .btn-read-more {
+   background-color: #f0f0f0!important;
+   color: #333!important;
+   padding: 8px 16px;
+   border: 1px solid #ddd;
+   border-radius: 3px;
+   font-size: 14px;
+   cursor: pointer;
+ }
+.card2  .btn-watch-now {
+   padding: 8px 20px;
+   
+}
+.health{
+   height:100vh;
+   width:100%;
+   background: url("/public/image/health.jpg")no-repeat;
+   background-size: cover;
+   color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding:0;
+   margin-bottom: 20px;
+   margin-top: 0!important;
+}
+#health{
+   display: flex;
+   justify-content:space-evenly!important;
+  
+   font-weight: 500;
+   background-size:fill;
+   width:auto;
+   height:auto;
+   border-radius: 30px;
+   color: white;
+   padding: 20px;
+   border-radius: 20px;
+   background: transparent;
+   border: 2px solid rgba(43, 32, 32, 0.2);
+   backdrop-filter:blur(20px);
+   box-shadow: 0 0 10px rgb(255, 255,255,.2);
+}
+#contact1{
+    
+   display: flex;
+   justify-content:center!important;
+   align-items: center;
+  
+   /*background: url("/public/image/contact4.avif") no-repeat;*/
+   background-size:fill;
+   width: 100%;
+   height:auto;
+   margin: 20px!important;
+   margin-bottom: 70px!important;;
+
+   color:black!important;
+   padding: 10px;
+   border-radius: 20px;
+   background:url("/public/image/home3.jpg") no-repeat!important;
+   background-size: cover!important;
+  
+}
+#contact1 h2{
+   font-size:50px;
+
+}
+#contact1 p{
+font-size: 30px!important;
+}
+.health-tips{
+   height:30vh;
+   font-size: large!important;
+   align-items: center;
+   margin-top: 10px;
+   padding:10px;
+   margin-bottom: 0;
+   background-color:gainsboro;
+}
+#marquee{
+   font-size: larger!important;
+}
+#tips{
+   font-size: xx-large;
+   color:gray;
+   font-weight: 700!important;
+}
+#two{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content:center!important;
+   margin: auto;
+   font-weight: 500;
+   background-size:cover;
+   width:auto;
+   height:auto;
+   color: white;
+   padding: auto;
+   border-radius: 20px;
+   background: transparent;
+   border: 2px solid rgba(43, 32, 32, 0.2);
+   backdrop-filter:blur(20px);
+   box-shadow: 0 0 10px rgb(255, 255,255,.2);
+}
+
+#review-h1{
+ text-align: center;
+ padding:40px;
+ font-size: 70px;
+ 
+}
+#review-content{
+   background: url("/public/image/review.avif")no-repeat;
+   background-size:100% 100%;
+   height:100%;
+   width: 100%;
+   margin:auto;
+}
+#review{
+  color:#F9629F;
+   width: 100%;
+   filter: drop-shadow(3px 3px 3px black);
+}
