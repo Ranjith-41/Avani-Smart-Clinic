@@ -41,8 +41,8 @@
     "rules": {
       "no-unused-vars": "warn"
       
-  }
-},
+    }
+  },
   "browserslist": {
     "production": [
       ">0.2%",
