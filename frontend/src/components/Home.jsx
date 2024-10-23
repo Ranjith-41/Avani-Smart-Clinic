@@ -35,12 +35,14 @@ const Home = () => {
         </Col>
         <Col md={3}></Col>
         </Row>
-<section className="health-tips">
+
+  <section className="health-tips">
   <h2 id="tips">Health Tips</h2>
-  <marquee id="marquee" behavior="scroll" direction="left">
+  <div className="scroll-text">
     Stay hydrated! Water is essential for children's health. | Encourage your kids to eat fruits and vegetables daily. | Regular physical activity helps children stay fit and healthy.
-  </marquee>
+  </div>
 </section>
+
 
       <Row>
     <Col md={12}>

@@ -157,23 +157,43 @@
 #contact1 p{
 font-size: 30px!important;
 }
-.health-tips{
-   height:30vh;
-   font-size: large!important;
-   align-items: center;
-   margin-top: 10px;
-   padding:10px;
-   margin-bottom: 0;
-   background-color:gainsboro;
-}
-#marquee{
-   font-size: larger!important;
-}
-#tips{
-   font-size: xx-large;
-   color:gray;
-   font-weight: 700!important;
-}
+.health-tips {
+   height: 30vh; /* Set height for the section */
+   font-size: large !important; /* Set font size */
+   align-items: center; /* Align items (not needed for a section) */
+   margin-top: 10px; /* Margin at the top */
+   padding: 10px; /* Padding inside the section */
+   margin-bottom: 0; /* No margin at the bottom */
+   background-color: gainsboro; /* Background color */
+   position: relative; /* Position relative for absolute positioning of the scrolling text */
+   overflow: hidden; /* Hide overflow */
+ }
+ 
+ .scroll-text {
+   white-space: nowrap; /* Prevent line breaks */
+   animation: scrolling 10s linear infinite; /* Adjust duration as needed */
+   position: absolute; /* Positioning for smooth scrolling */
+   top: 50%; /* Center vertically */
+   left: 100%; /* Start from the right */
+   transform: translateY(-50%); /* Adjust for vertical centering */
+   font-size: larger !important; /* Use larger font size */
+ }
+ 
+ @keyframes scrolling {
+   0% {
+     transform: translateX(0) translateY(-50%); /* Start position */
+   }
+   100% {
+     transform: translateX(-100%) translateY(-50%); /* End position */
+   }
+ }
+ 
+ #tips {
+   font-size: xx-large; /* Larger font size for the header */
+   color: gray; /* Gray color for the header */
+   font-weight: 700 !important; /* Bold font weight */
+ }
+ 
 #two{
    display: flex;
    flex-direction: row;
