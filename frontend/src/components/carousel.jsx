@@ -14,7 +14,7 @@ const ReviewsCarousel = () => {
   useEffect(() => {
     const fetchFeedbacks = async () => {
       try {
-        const response = await axios.get('http://localhost:5000/feedback'); // Your backend endpoint
+        const response = await axios.get('https://avani-smart-clinic.onrender.com/feedback'); // Your backend endpoint
         setFeedbacks(response.data);
       } catch (error) {
         console.log('Error fetching feedback:', error);
