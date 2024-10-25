@@ -1,0 +1,23 @@
+#Apt{
+    margin-top: 60px!important;
+    margin-bottom: 20px;
+    background:url("/public/image/apt.jpg") no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding:30px!important;
+}
+#apt-form{
+    margin-left:30%!important;
+    margin-right: 150px!important;
+}
+#apt-h1{
+    text-align: center;
+    margin-top: 100px;
+}
+#apt-b{
+    margin-left: 40%;
+}
+#apt-label{
+    color:black!important;
+    font: bolder!important;
+}

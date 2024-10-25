@@ -1,0 +1,20 @@
+.footer{
+    padding: 10px;
+    padding-left: 20px;
+}
+
+
+#icon{
+    color:white!important;
+    font-size: large;
+    font-weight:500;
+    text-decoration: none!important;
+   
+}
+#icon1{
+    color: white !important;
+    padding: 10px!important;
+}
+#footer3{
+    text-align: center;
+}
