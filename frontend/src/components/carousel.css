@@ -22,7 +22,16 @@
     height:auto!important;
     width:70%;
     background: transparent;
-    object-fit: fill;
+    object-fit:contain!important;
    
   }
-  
+  #fname{
+    padding-top: 20px;
+    padding-bottom: 0%;
+  }
+  #fmessage{
+    padding-bottom: 0%!important;
+  }
+  #fstar{
+    padding-top: 0%!important;
+  }

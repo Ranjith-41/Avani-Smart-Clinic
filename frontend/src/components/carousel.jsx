@@ -30,8 +30,8 @@ const ReviewsCarousel = () => {
         <Carousel.Item key={index}>
           <div className="carousel-card" md={12} xs={12}>
             <h3 id="fname">{feedback.name}</h3>
-            <p>{feedback.message}</p>
-            <p>{renderStars(feedback.rating)}</p>
+            <p id="fmessage">{feedback.message}</p>
+            <p id="fstar">{renderStars(feedback.rating)}</p>
           </div>
         </Carousel.Item>
       ))}

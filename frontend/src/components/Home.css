@@ -139,31 +139,32 @@
    backdrop-filter:blur(20px);
    box-shadow: 0 0 10px rgb(255, 255,255,.2);
 }
-#contact1{
+#one{
     
    display: flex;
-   justify-content:center!important;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content:space-around!important;
    align-items: center;
   
    /*background: url("/public/image/contact4.avif") no-repeat;*/
    background-size:fill;
    width: 100%;
    height:auto;
-   margin: 20px!important;
-   margin-bottom: 70px!important;;
+   margin: auto;
 
    color:black!important;
    padding: 10px;
    border-radius: 20px;
-   background:url("/public/image/home3.jpg") no-repeat!important;
+   background:url("/public/image/contact4.avif") no-repeat!important;
    background-size: cover!important;
   
 }
-#contact1 h2{
+#one h2{
    font-size:50px;
 
 }
-#contact1 p{
+#one p{
 font-size: 30px!important;
 }
 .health-tips {
@@ -207,7 +208,7 @@ font-size: 30px!important;
    display: flex;
    flex-direction: row;
    flex-wrap: wrap;
-   justify-content:center!important;
+   justify-content:space-around!important;
    margin: auto;
    font-weight: 500;
    background-size:cover;
@@ -220,6 +221,35 @@ font-size: 30px!important;
    border: 2px solid rgba(43, 32, 32, 0.2);
    backdrop-filter:blur(20px);
    box-shadow: 0 0 10px rgb(255, 255,255,.2);
+}
+#two{
+    
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:space-around!important;
+ 
+  /*background: url("/public/image/contact4.avif") no-repeat;*/
+  background-size:fill;
+  width:100%;
+  height:auto;
+  border-radius: 30px;
+  color: hsl(0, 0%, 100%);
+  padding:40px;
+  margin: auto;
+  border-radius: 20px;
+  background: transparent;
+  
+
+
+ 
+}
+#one h2{
+  font-size:50px;
+
+}
+#one p{
+font-size: 30px!important;
 }
 
 #review-h1{
@@ -254,11 +284,11 @@ font-size: 30px!important;
      padding: 10px;
      font-weight: 700;
      height:auto;
-     width:auto;
+     width:100%;
      margin:0;
    }
    .img1{
-    height:200px!important;
+    height:250px!important;
     object-fit: fill;
    }
  
@@ -277,12 +307,13 @@ font-size: 30px!important;
      object-fit: contain;
    }
    #col{
+    margin: 0%;
     height:fit-content;
     padding-top: 2px;
     padding-right: 2px;
    }
    #col-h{
-    font-size:large!important;
+    font-size:medium!important;
     padding: 5px;
    }
    .health-tips {
@@ -296,7 +327,7 @@ font-size: 30px!important;
  
    .scroll-text {
      font-size: small !important;
-     animation-duration: 10s;
+     animation-duration: 15s;
    }
    .health{
     height:200px;
@@ -354,18 +385,21 @@ font-size: 30px!important;
     #review-h1{
       text-align: center;
       padding:40px;
-      font-size:xx-large;
+      font-size:x-large;
     }   
     #review{
       color:#F9629F;
        width: 100%;
+       min-height: 350px!important;
        filter: drop-shadow(1px 1px 1px black);
     }  
     #review-content{
       font-size:x-small!important;
+     
     }
    /* Contact section */
    #two {
+    width: 100%;
      flex-direction: column;
      text-align: center;
    }

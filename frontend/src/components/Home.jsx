@@ -23,12 +23,12 @@ const Home = () => {
    
       <Row id="col">
       <Col md={3} ></Col>
-        <Col md={3} xs={6} >
+        <Col md={3} xs={5} >
           <h3 id="col-h">Consulting Hours:</h3>
           <h3 id="col-h">MON-SUN</h3>
         </Col>
       
-        <Col md={3} xs={6}>
+        <Col md={3} xs={5}>
           
           <h4 id="col-h">10:00 AM - 2:00 PM</h4>
           <h4 id="col-h">6:00 PM - 8:00 PM</h4>
@@ -190,23 +190,17 @@ const Home = () => {
       </Row> 
      </section>
      <Row></Row>
-      <section id="contact1">
-
-      <Row  id="two">
-        
-        <Col sm={12} md={6}>
-          <h2 id="contact-h2">Our Address</h2>
-          <p id="contact-p">Sakthi Polyclinic ,<br/>93, New Scheme Road,<br/> Pollachi - 642002.<br/>
-          Phone: 95850 26625</p>
-          
-        
-        </Col>
-
-        <Col id="Map1" sm={12} md={6}>
-          <Map/>
-        </Col>
-      </Row>
-    </section>
+     <section id="one">
+        <Row id="two">
+          <Col md={6} sm={12}>
+            <h2 id="contact-h2">Our Address</h2>
+            <p id="contact-p">Sakthi Polyclinic, <br />93, New Scheme Road, <br />Pollachi - 642002.<br />Phone: 95850 26625</p>
+          </Col>
+          <Col id="contact-map" md={6} sm={12}>
+            <Map />
+          </Col>
+        </Row>
+      </section>
     
     </Container>
      

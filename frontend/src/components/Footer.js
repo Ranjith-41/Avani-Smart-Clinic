@@ -6,7 +6,7 @@ import './Footer.css';
 const Footer = () => {
   return (
     <footer className="bg-dark text-light py-4 mt-auto">
-      <Container class="footer">
+      <Container fluid class="footer">
         <Row>
           <Col md={4} xs={12} className="text-center text text-md-left">
             <h4 id="footer-h4">Avani Smart Children's Clinic</h4>
