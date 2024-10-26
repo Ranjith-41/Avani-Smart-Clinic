@@ -19,7 +19,7 @@ const ReviewsCarousel = () => {
             } catch (error) {
               console.log('Error fetching feedback:', error);
             }
-          }; catch (error) {
+          } catch (error) {
         console.log('Error fetching feedback:', error);
     };
 
