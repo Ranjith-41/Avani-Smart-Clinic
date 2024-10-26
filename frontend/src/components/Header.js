@@ -12,7 +12,7 @@ const Header = () => {
       <Container fluid>
         {/* Brand Name */}
         <Navbar.Brand id="navbar-brand" as={Link} to="/">
-        <img
+        <img id="logo"
             src="/image/edit-no-logo.png" // Ensure the correct path to your logo
             alt="Clinic Logo"
             style={{ height: '80px', marginRight: '5px' ,borderRadius:'40px'}} // Adjust the logo size as needed

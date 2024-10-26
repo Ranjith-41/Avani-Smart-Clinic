@@ -1,0 +1,149 @@
+*{
+    margin:0;
+}
+#container{
+    margin-top:50px;
+   /* background-color:#F9629F;*/
+   background-image: url("/public/image/contact4.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    height:auto;
+}
+#h1{
+    text-align:center;
+    justify-content:center;
+    padding:20px;
+    font-size: 70px!important;
+    color:white;
+    margin-top: 90px!important;
+}
+#one{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around!important;
+   
+    /*background: url("/public/image/contact4.avif") no-repeat;*/
+    background-size:fill;
+    width:100%;
+    height:auto;
+    border-radius: 30px;
+    color: hsl(0, 0%, 100%);
+    padding:40px;
+    margin: auto;
+    border-radius: 20px;
+    background: transparent;
+    
+
+  
+   
+}
+#one h2{
+    font-size:50px;
+
+}
+#one p{
+ font-size: 30px!important;
+}
+#feedback{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    display: flex;
+    justify-content:space-evenly!important;
+   
+    /*background: url("/public/image/contact4.avif") no-repeat;*/
+    background-size:fill;
+    width: 80%;
+    height:auto;
+    margin-left: 90px;
+    border-radius: 30px;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    background: transparent;
+    border: 2px solid rgba(255, 255,255,.2);
+    backdrop-filter:blur(20px);
+    box-shadow: 0 0 10px rgb(255, 255,255,.2);
+}
+#div{
+    padding: 10px;
+}
+label{
+    padding:2px;
+}
+#feedback {
+    width: 50%;
+    margin: 0 auto;
+    background-color:transparent;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 4px 4px 8px 8px white(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+  }
+  
+  #feedback-h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color:white;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: white;
+  }
+  
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #fff;
+  }
+  
+  .form-group input:focus,
+  .form-group select:focus,
+  .form-group textarea:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  .btn-submit {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-submit:hover {
+    background-color: #0056b3;
+  }
+  

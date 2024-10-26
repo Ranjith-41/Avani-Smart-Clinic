@@ -58,7 +58,7 @@ export default Map;
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
-
+import './Map.css';
 
 const position = [10.662811993208765, 77.01072816547148];
 
@@ -72,7 +72,7 @@ const customIcon = L.icon({
 
 const Map = () => {
   return (
-    <MapContainer center={position} zoom={15} style={{ height: '400px', width: '450px' }}>
+    <MapContainer id="map-container" center={position} zoom={15}>
       <TileLayer
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'

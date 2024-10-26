@@ -1,0 +1,15 @@
+#map-container{
+    height: 350px!important;
+    width: 350px!important;
+    border-radius: 10px;
+    margin:10px;
+}
+@media (max-width:768px){
+    #map-container{
+        height: 250px!important;
+        width: auto!important;
+        border-radius: 10px;
+        margin:10px;
+    }
+
+}
