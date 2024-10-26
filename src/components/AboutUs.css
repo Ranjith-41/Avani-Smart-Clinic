@@ -71,7 +71,7 @@
 
 .team{
     background: url("/public/image/contact3.avif") no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
     box-shadow: 2px 8px 10px rgba(0, 0, 0, 0.8);
     padding:15px;
   }
@@ -145,3 +145,111 @@
   margin-bottom: 20px;
 }
   
+@media (max-width: 768px){
+  *{
+    padding: 0;
+    margin: 0;
+  
+     
+  }
+  .about-us-container {
+
+    padding: 5px!important;
+    margin-left: 1px!important;
+    margin-right: 1px!important;
+    width: 100%!important;
+    }
+  .about-clinic{
+    margin-top: 50px!important;
+    font-size: medium!important;
+   
+  }
+  .about-clinic h1,p{
+    font-size: small!important;
+  }
+  .abt{
+    background: url("/public/image/abt.jpg") no-repeat;
+    background-size:cover;
+    height:auto!important;
+    width: 100%;
+    border-radius: 20px;
+    margin: 0!important;
+    padding: 30px!important;
+    
+  
+}
+.abt p{
+  font-size:small!important;
+}
+.abt h2{
+  font-size: medium;
+  font-weight: bold;
+}
+.mission{
+  height:auto;
+  margin-top:2px!important;
+  padding: 10px!important;
+  margin-left: 15px!important;
+}
+.mission h2{
+  font-size: xx-large;
+  
+}
+.abt2{
+  height:200px!important;
+  width:100%;
+  background: url("/public/image/abt2.jpg")no-repeat;
+  background-size:100% 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+}  
+.abt2 #h2{
+  
+  
+  font-size:xx-large;
+  
+}
+.team{
+  background: url("/public/image/contact3.avif") no-repeat;
+  background-size: 100% 100%;
+  box-shadow: 2px 8px 10px rgba(0, 0, 0, 0.8);
+  padding:15px;
+  height:auto!important;
+  font-size:medium!important;
+}
+
+.team img{
+  height:auto!important;
+  width:100%;
+  object-fit: fill!important;
+
+   
+}
+
+h2, h3 {
+  font-size:large!important;
+  margin-bottom: 20px;
+
+  padding:20px;
+}
+
+p, ul {
+  font-size: small!important;
+  line-height: 1.6;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+
+}

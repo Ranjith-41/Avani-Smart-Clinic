@@ -56,4 +56,8 @@
     font-size: 70px!important;
     color:white;
   }
-  
+  @media (max-width: 768px){
+    #h3{
+      font-size: xx-large!important;
+    }
+  }

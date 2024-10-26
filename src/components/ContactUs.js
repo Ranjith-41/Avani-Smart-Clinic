@@ -41,17 +41,17 @@ const ContactUs = () => {
       <h1 id="h1">Contact Us</h1>
       <section id="one">
         <Row id="two">
-          <Col md={6} xs={12}>
-            <h2>Our Address</h2>
-            <p>Sakthi Polyclinic, <br />93, New Scheme Road, <br />Pollachi - 642002.<br />Phone: 95850 26625</p>
+          <Col md={6} sm={12}>
+            <h2 id="contact-h2">Our Address</h2>
+            <p id="contact-p">Sakthi Polyclinic, <br />93, New Scheme Road, <br />Pollachi - 642002.<br />Phone: 95850 26625</p>
           </Col>
-          <Col lg={6} xs={12}>
+          <Col id="contact-map" md={6} sm={12}>
             <Map />
           </Col>
         </Row>
       </section>
       <Row>
-        <Col md={12}>
+        <Col md={12} col-12>
           <section id="feedback">
             <h2 id="feedback-h2">Feedback Form</h2>
             <form id="feedbackForm" onSubmit={handleSubmit}>
@@ -103,7 +103,10 @@ const ContactUs = () => {
                   <option value="1">1 - Poor</option>
                 </select>
               </div>
+              <div class="submit">
               <button type="submit" className="btn-submit">Submit Feedback</button>
+              </div>
+
             </form>
           </section>
         </Col>

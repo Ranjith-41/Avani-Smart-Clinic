@@ -11,7 +11,7 @@ const Home = () => {
 
   return (
     <Container fluid id="container1" className="mt-4">
-      <Card className="text-center mb-4">
+      <Card className="text-center mb-4" lg={12} sm={12}>
         <Card.Img class="img1"  src="/image/home1.jpg" alt="welcome" fluid/>
         <Card.ImgOverlay class="one">
           <Card.Title class="two">{t('Welcome')}</Card.Title>
@@ -22,18 +22,18 @@ const Home = () => {
       </Card>
    
       <Row id="col">
-      <Col md={3}></Col>
-        <Col md={3} >
-          <h3>Consulting Hours:</h3>
-          <h3>MON-SUN</h3>
+      <Col md={3} ></Col>
+        <Col md={3} xs={6} >
+          <h3 id="col-h">Consulting Hours:</h3>
+          <h3 id="col-h">MON-SUN</h3>
         </Col>
       
-        <Col md={3}>
+        <Col md={3} xs={6}>
           
-          <h4>10:00 AM - 2:00 PM</h4>
-          <h4>6:00 PM - 8:00 PM</h4>
+          <h4 id="col-h">10:00 AM - 2:00 PM</h4>
+          <h4 id="col-h">6:00 PM - 8:00 PM</h4>
         </Col>
-        <Col md={3}></Col>
+        <Col md={3} ></Col>
         </Row>
 
   <section className="health-tips">
@@ -45,7 +45,7 @@ const Home = () => {
 
 
       <Row>
-    <Col md={12}>
+    <Col xs={12} md={12}>
     
 <section class="vlog-section">
   <section class="health">
@@ -67,7 +67,7 @@ const Home = () => {
         </div>
       </div>
     
-      <div class="col-md-4 mb-4">
+      <div class="col-md-4  mb-4">
         <div class="card vlog-card card2">
           <img src="/image/vlog2.jpg" class="card-img-top" alt="Vlog 2"/>
           <div class="card-body">
@@ -78,6 +78,8 @@ const Home = () => {
           </div>
         </div>
       </div>
+      
+    
      
       <div class="col-md-4 mb-4">
         <div class="card vlog-card">
@@ -94,7 +96,7 @@ const Home = () => {
 
     <div class="row">
      
-      <div class="col-md-4 mb-4">
+    <div class="col-md-4 mb-4">
         <div class="card vlog-card">
           <img src="/image/vlog4.avif" class="card-img-top" alt="Vlog 4"/>
           <div class="card-body">
@@ -105,7 +107,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-    
+
       <div class="col-md-4 mb-4">
         <div class="card vlog-card">
           <img src="/image/vlog5.jpg" class="card-img-top" alt="Vlog 5"/>
@@ -192,15 +194,15 @@ const Home = () => {
 
       <Row  id="two">
         
-        <Col sm={8} md={6}>
-          <h2>Our Address</h2>
-          <p>Sakthi Polyclinic ,<br/>93, New Scheme Road,<br/> Pollachi - 642002.<br/>
+        <Col sm={12} md={6}>
+          <h2 id="contact-h2">Our Address</h2>
+          <p id="contact-p">Sakthi Polyclinic ,<br/>93, New Scheme Road,<br/> Pollachi - 642002.<br/>
           Phone: 95850 26625</p>
           
         
         </Col>
 
-        <Col id="Map1" sm={8} lg={6}>
+        <Col id="Map1" sm={12} md={6}>
           <Map/>
         </Col>
       </Row>

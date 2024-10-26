@@ -46,3 +46,20 @@ table {
     font-size: 70px!important;
     color:white;
   }
+  @media (max-width: 768px){
+    #imu-h2{
+      text-align:center;
+      justify-content:center;
+      padding:20px;
+      font-size: xx-large!important;
+      color:white;
+    }
+    table{
+      font-size: medium;
+      margin-left: 5px!important;
+    }
+    table th, table td{
+      font-size: small;
+    }
+
+  }
