@@ -75,13 +75,17 @@
         letter-spacing: 1px;
         margin-left:5px;
         color: azure!important;
-    }
-    #basic-navbar-nav{
-     
-        justify-content: end!important;
+        display: flex!important;
+        flex-direction: column!important; /* This will stack links vertically in mobile */
+
+        align-items: flex-start!important; 
     }
     .navbar-toggler {
         margin-left:auto!important; /* Align toggle button to the right */
       }
-    
+    #link {
+        width: 100%; /* Make links full-width */
+        text-align: left; /* Align text to the left */
+        padding: 10px 15px; /* Add some padding */
+    }
 }

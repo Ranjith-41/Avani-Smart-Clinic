@@ -6,16 +6,12 @@ import LanguageSwitcher from './LanguageSwitcher'; // Ensure this component exis
 import './Header.css';
 
 const Header = () => {
-  const [isNavExpanded, setNavExpanded] = useState(false);
 
-  const handleToggle = () => {
-    setNavExpanded(!isNavExpanded);
-  };
   return (
     <Navbar id="navbar" expand="lg">
-      <Container fluid>
+      <Container fluid className="d-flex justify-content-between align-items-center w-100">
         {/* Brand Name */}
-        <div className="d-flex justify-content-between align-items-center w-100">
+ 
         <Navbar.Brand id="navbar-brand" as={Link} to="/">
         <img id="logo"
             src="/image/edit-no-logo.png" // Ensure the correct path to your logo
@@ -26,11 +22,11 @@ const Header = () => {
         </Navbar.Brand>
         
         {/* Toggle for mobile view */}
-        <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={handleToggle}  />
+        <Navbar.Toggle aria-controls="basic-navbar-nav"  />
         
         {/* Navigation Links */}
-        <Navbar.Collapse id="basic-navbar-nav" in={isNavExpanded} >
-          <Nav id="content" className="me-auto">
+        <Navbar.Collapse id="basic-navbar-nav" >
+          <Nav id="content" className="flex-column me-auto">
             {/* Home Link */}
             <Nav.Link id="link" as={Link} to="/">
               Home
@@ -68,7 +64,7 @@ const Header = () => {
           {/* Language Switcher 
           <LanguageSwitcher />*/}
         </Navbar.Collapse>
-         </div>
+   
       </Container>
     </Navbar>
   );
