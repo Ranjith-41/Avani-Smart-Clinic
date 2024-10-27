@@ -1,12 +1,16 @@
 // src/components/Header.js
-
-import React from 'react';
+import React, { useState } from 'react';
 import { Navbar, Nav, Container } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import LanguageSwitcher from './LanguageSwitcher'; // Ensure this component exists
 import './Header.css';
 
 const Header = () => {
+  const [isNavExpanded, setNavExpanded] = useState(false);
+
+  const handleToggle = () => {
+    setNavExpanded(!isNavExpanded);
+  };
   return (
     <Navbar id="navbar" expand="lg">
       <Container fluid>
@@ -21,10 +25,10 @@ const Header = () => {
         </Navbar.Brand>
         
         {/* Toggle for mobile view */}
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={handleToggle}  />
         
         {/* Navigation Links */}
-        <Navbar.Collapse id="basic-navbar-nav"  >
+        <Navbar.Collapse id="basic-navbar-nav" in={isNavExpanded} >
           <Nav id="content" className="me-auto">
             {/* Home Link */}
             <Nav.Link id="link" as={Link} to="/">
