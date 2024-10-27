@@ -1,7 +1,13 @@
-
+.wellness{
+    padding: 20px;
+    background-color:lightpink;
+    background-size: cover;
+}
 .vlog-section {
+    margin-top: auto!important;
     padding: 50px;
-    background-color: #f4f4f4;
+    background-color:white;
+    background-size: cover;
     text-align: center;
   }
   .vlog-card {
@@ -112,7 +118,13 @@
   }
 
   @media (max-width: 768px){
-    
+    .vlog-section{
+        
+        padding: auto;
+    }
+    .vlog-card{
+        padding: auto;
+    }
    .health-tips {
     height: 90px;
     padding: 2px;
@@ -127,10 +139,10 @@
     animation-duration: 15s;
   }
   .health{
+    margin-top: 70px!important;
+    padding: 0%!important;
    height:200px;
    width:100%;
- 
-   padding: 2px;
   }
   #health{
    height: auto!important;

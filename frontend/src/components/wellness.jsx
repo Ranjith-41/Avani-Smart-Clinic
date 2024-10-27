@@ -4,7 +4,17 @@ import './wellness.css';
 
 const Wellness = () =>{
     return(
-        <Container fluid>
+        <Container fluid class="wellness">
+
+            <section class=" container-fluid health">
+                <h2 id="health" class="mb-5">Health & Children's Vlogs</h2>
+            </section>
+            <section className="container-fluid health-tips">
+                <h2 id="tips">Health Tips</h2>
+                <div className="scroll-text">
+                    Stay hydrated! Water is essential for children's health. | Encourage your kids to eat fruits and vegetables daily. | Regular physical activity helps children stay fit and healthy.
+                </div>
+            </section>
 
 
 
@@ -12,15 +22,6 @@ const Wellness = () =>{
         <Col xs={12} md={12}>
     
             <section class="vlog-section">
-            <section class=" container-fluid health">
-                <h2 id="health" class="mb-5">Health & Children's Vlogs</h2>
-            </section>
-            <section className="health-tips">
-                <h2 id="tips">Health Tips</h2>
-                <div className="scroll-text">
-                    Stay hydrated! Water is essential for children's health. | Encourage your kids to eat fruits and vegetables daily. | Regular physical activity helps children stay fit and healthy.
-                </div>
-            </section>
 
             <div class="container">
                 <div class="row">
