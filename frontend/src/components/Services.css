@@ -34,6 +34,9 @@
     font-size:larger;
     color:gray;
   }
+  .service-text h4{
+    text-align: left;
+  }
   
   .service-image {
     width: 100%;
@@ -44,6 +47,11 @@
   }
   
   @media (max-width: 768px) {
+
+    .services-container{
+      padding: 5px;
+      margin: 0%;
+    }
     .service-section {
       flex-direction: column;
       text-align: center;

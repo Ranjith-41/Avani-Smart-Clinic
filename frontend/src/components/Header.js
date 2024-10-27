@@ -9,7 +9,7 @@ import './Header.css';
 const Header = () => {
   return (
     <Navbar id="navbar" expand="lg">
-      <Container>
+      <Container fluid>
         {/* Brand Name */}
         <Navbar.Brand id="navbar-brand" as={Link} to="/">
         <img id="logo"
@@ -24,7 +24,7 @@ const Header = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         
         {/* Navigation Links */}
-        <Navbar.Collapse id="basic-navbar-nav">
+        <Navbar.Collapse id="basic-navbar-nav"  >
           <Nav id="content" className="me-auto">
             {/* Home Link */}
             <Nav.Link id="link" as={Link} to="/">
