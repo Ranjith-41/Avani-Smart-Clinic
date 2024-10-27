@@ -15,6 +15,7 @@ const Header = () => {
     <Navbar id="navbar" expand="lg">
       <Container fluid>
         {/* Brand Name */}
+        <div className="d-flex justify-content-between align-items-center w-100">
         <Navbar.Brand id="navbar-brand" as={Link} to="/">
         <img id="logo"
             src="/image/edit-no-logo.png" // Ensure the correct path to your logo
@@ -67,6 +68,7 @@ const Header = () => {
           {/* Language Switcher 
           <LanguageSwitcher />*/}
         </Navbar.Collapse>
+         </div>
       </Container>
     </Navbar>
   );
