@@ -18,6 +18,7 @@
     flex-direction:row;
     justify-content: center!important;
     align-items: center;
+    flex-grow: 1
     
    
 }
