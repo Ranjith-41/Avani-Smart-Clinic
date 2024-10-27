@@ -19,6 +19,7 @@ import AboutUs from './components/AboutUs';
 import Services from './components/Services';
 import Immunization from './components/Immunization';
 import ContactUs from './components/ContactUs';
+import Wellness from './components/wellness';
 /*import Appointment from './components/Appointment';*/
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<AboutUs />} />
           <Route path="/services" element={<Services />} />
+          <Route path="/wellness" element={<Wellness />}/>
           <Route path="/immunization" element={<Immunization />} />
           <Route path="/contact" element={<ContactUs />} />
         {/* <Route path="/appointment" element={<Appointment />} /> */}  

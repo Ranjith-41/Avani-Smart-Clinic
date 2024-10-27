@@ -18,6 +18,9 @@
     margin-top: 30px!important;
     
   }
+  .about-clinic p{
+    text-align: justify;
+  }
   
   .about-clinic, .mission, .team, .achievements {
     display: flex;
@@ -70,10 +73,11 @@
   }
 
 .team{
-    background: url("/public/image/contact3.avif") no-repeat;
+    background: url("/public/image/team.webp") no-repeat;
     background-size: 100% 100%;
     box-shadow: 2px 8px 10px rgba(0, 0, 0, 0.8);
     padding:15px;
+    text-align: justify;
   }
   
   .team img{
@@ -164,7 +168,11 @@
     font-size: medium!important;
    
   }
-  .about-clinic h1,p{
+  .about-clinic h2{
+    font-size:small!important;
+    
+  }
+  .about-clinic p{
     font-size: small!important;
   }
   .abt{
@@ -214,7 +222,7 @@
   
 }
 .team{
-  background: url("/public/image/contact3.avif") no-repeat;
+  background: url("/public/image/team.webp") no-repeat;
   background-size: 100% 100%;
   box-shadow: 2px 8px 10px rgba(0, 0, 0, 0.8);
   padding:15px;

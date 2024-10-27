@@ -65,80 +65,6 @@
    margin-bottom: 20px;
  }
 
- .vlog-section {
-   padding: 50px;
-   background-color: #f4f4f4;
-   text-align: center;
- }
- .vlog-card {
-   transition: transform 0.3s;
-   box-shadow:5px 8px 8px black;
-   margin:15px 15px 15px 15px;
-   height:auto;
-   
- }
- .vlog-card:hover {
-   transform: scale(1.05);
-   box-shadow:5px 8px 8px black;
- }
- .card-img-top {
-   height: 200px;
-   object-fit:fill;
- }
- .btn-watch-now {
-   background-color: #ff0000!important;
-   color: white;
-   padding: 8px 20px;
-   border: none !important;
-   border-radius: 5px;
-   font-size: 16px;
-   cursor: pointer;
-   margin-right:20px;
-   
- }
- .btn-read-more {
-   background-color: #f0f0f0!important;
-   color: #333!important;
-   padding: 8px 16px;
-   border: 1px solid #ddd;
-   border-radius: 3px;
-   font-size: 14px;
-   cursor: pointer;
- }
-.card2  .btn-watch-now {
-   padding: 8px 20px;
-   
-}
-.health{
-   height:100vh;
-   width:100%;
-   background: url("/public/image/health.jpg")no-repeat;
-   background-size: cover;
-   color: white;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   padding:0;
-   margin-bottom: 20px;
-   margin-top: 0!important;
-}
-#health{
-   display: flex;
-   justify-content:space-evenly!important;
-  
-   font-weight: 500;
-   background-size:fill;
-   width:auto;
-   height:auto;
-   border-radius: 30px;
-   color: white;
-   padding: 20px;
-   border-radius: 20px;
-   background: transparent;
-   border: 2px solid rgba(43, 32, 32, 0.2);
-   backdrop-filter:blur(20px);
-   box-shadow: 0 0 10px rgb(255, 255,255,.2);
-}
 #one{
     
    display: flex;
@@ -167,42 +93,7 @@
 #one p{
 font-size: 30px!important;
 }
-.health-tips {
-   height: 30vh; /* Set height for the section */
-   font-size: large !important; /* Set font size */
-   align-items: center; /* Align items (not needed for a section) */
-   margin-top: 10px; /* Margin at the top */
-   padding: 10px; /* Padding inside the section */
-   margin-bottom: 0; /* No margin at the bottom */
-   background-color: gainsboro; /* Background color */
-   position: relative; /* Position relative for absolute positioning of the scrolling text */
-   overflow: hidden; /* Hide overflow */
- }
- 
- .scroll-text {
-   white-space: nowrap; /* Prevent line breaks */
-   animation: scrolling 10s linear infinite; /* Adjust duration as needed */
-   position: absolute; /* Positioning for smooth scrolling */
-   top: 50%; /* Center vertically */
-   left: 100%; /* Start from the right */
-   transform: translateY(-50%); /* Adjust for vertical centering */
-   font-size: larger !important; /* Use larger font size */
- }
- 
- @keyframes scrolling {
-   0% {
-     transform: translateX(0) translateY(-50%); /* Start position */
-   }
-   100% {
-     transform: translateX(-100%) translateY(-50%); /* End position */
-   }
- }
- 
- #tips {
-   font-size: xx-large; /* Larger font size for the header */
-   color: gray; /* Gray color for the header */
-   font-weight: 700 !important; /* Bold font weight */
- }
+
  
 #two{
    display: flex;
@@ -259,15 +150,18 @@ font-size: 30px!important;
  
 }
 #review-content{
-   background: url("/public/image/review.avif")no-repeat;
+   background: url("/public/image/review1.jpg")no-repeat;
    background-size:100% 100%;
    height:auto;
    width: 100%;
    margin:auto;
+   text-align: justify;
 }
 #review{
   color:#F9629F;
    width: 100%;
+   margin-bottom: 20px;
+  
    filter: drop-shadow(3px 3px 3px black);
 }
 /* Responsive adjustments for mobile devices */
@@ -280,7 +174,8 @@ font-size: 30px!important;
  
    /* Adjust text size and layout */
    .two {
-     font-size: 15px;
+    
+     font-size:small;
      padding: 10px;
      font-weight: 700;
      height:auto;
@@ -316,29 +211,6 @@ font-size: 30px!important;
     font-size:medium!important;
     padding: 5px;
    }
-   .health-tips {
-     height: 90px;
-     padding: 2px;
-   }
-   #tips{
-    font-size:large;
-    padding: 10px;
-   }
- 
-   .scroll-text {
-     font-size: small !important;
-     animation-duration: 15s;
-   }
-   .health{
-    height:200px;
-    width:100%;
-  
-    padding: 2px;
-   }
-   #health{
-    height: auto!important;
-
-   }
    #contact1 h2 {
      font-size: 30px;
    }
@@ -347,41 +219,7 @@ font-size: 30px!important;
      font-size: 20px !important;
    }
  
-   /* Responsive Vlog section */
-   .vlog-card {
-    height:auto!important;
-     width: 100%;
-     margin: 10px 0;
-     
-   }
-   .card-title{
-      font-size: small;
-      font-weight: bold!important;
-   }
-   .card-text{
-      font-size:small!important;
-   }
-  
-   .btn-watch-now {
-      background-color: #ff0000!important;
-      color: white;
-      padding:6px!important;
-      border: none !important;
-      border-radius: 5px!important;
-      font-size:small!important;
-      cursor: pointer!important;
-      margin-right:15px!important;
-      
-    }
-    .btn-read-more {
-      background-color: #f0f0f0!important;
-      color: #333!important;
-      padding:5px!important;
-      border: 1px solid #ddd;
-      border-radius: 3px;
-      font-size:small!important;
-      cursor: pointer!important;
-    }
+   
     #review-h1{
       text-align: center;
       padding:40px;
@@ -395,6 +233,7 @@ font-size: 30px!important;
     }  
     #review-content{
       font-size:x-small!important;
+      text-align: justify!important;
      
     }
    /* Contact section */
@@ -416,6 +255,7 @@ font-size: 30px!important;
    #contact1{
     margin-left: 0%;
    }
+   
 
  }
  
