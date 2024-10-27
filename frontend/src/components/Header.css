@@ -60,14 +60,15 @@
         font-weight:500;
         color:white;
         letter-spacing: 1px;
-        margin-left:5px;
-        
+        flex-grow: 1;
+        margin-left: 0%!important;
         
     }
     #navbar-brand img{
-        height:50px!important;
-         margin-right: 10px!important;
+        height:45px!important;
+         margin-right:2px!important;
         border-radius:40px!important;
+        margin-left: 0%!important;
     }
     #content{
         font-size:small!important;
