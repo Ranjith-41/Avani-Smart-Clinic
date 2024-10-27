@@ -12,7 +12,7 @@ const Home = () => {
   const { t } = useTranslation();
 
   return (
-    <Container fluid id="container1" className="mt-4">
+    <Container fluid id="container1" className="container-fluid mt-4">
       <Card className="text-center welcome mb-4" lg={12} sm={12}>
         <Card.Img class="img1"  src="/image/home1.jpg" alt="welcome" fluid/>
         <Card.ImgOverlay class="one">

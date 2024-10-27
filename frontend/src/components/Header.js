@@ -26,7 +26,7 @@ const Header = () => {
         
         {/* Navigation Links */}
         <Navbar.Collapse id="basic-navbar-nav" >
-          <Nav id="content" className="flex-column me-auto">
+          <Nav id="content" className="flex-row me-auto">
             {/* Home Link */}
             <Nav.Link id="link" as={Link} to="/">
               Home

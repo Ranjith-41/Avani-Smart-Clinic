@@ -1,7 +1,10 @@
 /* Home.css */
 *{
-   margin: 0;
+  padding:0%;
+  margin: 0%;  
+  overflow-x: hidden; 
 }
+
 
 .one{
     position:absolute!important;
@@ -19,8 +22,8 @@
    }
 #container1{
    background-color:white!important;
-   padding:20px;
-   background-size: cover;
+   margin-left:0%!important;
+   background-size:100% 100%;
 }  
     
   
@@ -32,7 +35,7 @@
  .img1{
     width: 100%;
     height: auto;
-    object-fit:fill;
+    object-fit:contain;
  }
  .Row{
     text-align: center;
@@ -74,7 +77,7 @@
    align-items: center;
   
    /*background: url("/public/image/contact4.avif") no-repeat;*/
-   background-size:fill;
+   background-size:100% 100%;
    width: 100%;
    height:auto;
    margin: auto;
@@ -83,7 +86,7 @@
    padding: 10px;
    border-radius: 20px;
    background:url("/public/image/contact4.avif") no-repeat!important;
-   background-size: cover!important;
+   background-size: 100% 100%!important;
   
 }
 #one h2{
@@ -97,7 +100,7 @@ font-size: 30px!important;
  
 #two{
    display: flex;
-   flex-direction: row;
+   flex-direction:row;
    flex-wrap: wrap;
    justify-content:space-around!important;
    margin: auto;
@@ -121,7 +124,7 @@ font-size: 30px!important;
   justify-content:space-around!important;
  
   /*background: url("/public/image/contact4.avif") no-repeat;*/
-  background-size:fill;
+  background-size:100% 100%;
   width:100%;
   height:auto;
   border-radius: 30px;
@@ -166,10 +169,14 @@ font-size: 30px!important;
 }
 /* Responsive adjustments for mobile devices */
 @media (max-width: 768px) {
+  body {
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+   }
    #container1 {
     margin-top: 60px!important;
     margin-left: 20px!important;
      padding: 10px;
+     overflow-x: hidden!important; 
    }
  
    /* Adjust text size and layout */
@@ -205,7 +212,6 @@ font-size: 30px!important;
     margin: 0%;
     height:fit-content;
     padding-top: 2px;
-    padding-right: 2px;
    }
    #col-h{
     font-size:medium!important;
