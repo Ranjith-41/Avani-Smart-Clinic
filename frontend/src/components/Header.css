@@ -77,7 +77,7 @@
         justify-content: end!important;
     }
     .navbar-toggler {
-        margin: 0 auto!important; /* Align toggle button to the right */
+        margin-left:auto!important; /* Align toggle button to the right */
       }
     
 }
