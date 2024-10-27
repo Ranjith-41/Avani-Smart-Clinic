@@ -2,7 +2,8 @@
 *{
   padding:0%;
   margin: 0%;  
-  overflow-x: hidden; 
+  
+
 }
 
 
@@ -169,9 +170,7 @@ font-size: 30px!important;
 }
 /* Responsive adjustments for mobile devices */
 @media (max-width: 768px) {
-  body {
-    overflow-x: hidden; /* Prevent horizontal scrolling */
-   }
+ 
    #container1 {
     margin-top: 60px!important;
     margin-left: 20px!important;
@@ -181,7 +180,7 @@ font-size: 30px!important;
  
    /* Adjust text size and layout */
    .two {
-    
+    overflow-x: hidden;
      font-size:small;
      padding: 10px;
      font-weight: 700;
@@ -207,11 +206,13 @@ font-size: 30px!important;
      right: 50%;
      font-weight: 500;
      object-fit: contain;
+     overflow-x: hidden;
    }
    #col{
     margin: 0%;
     height:fit-content;
     padding-top: 2px;
+    overflow-x: hidden;
    }
    #col-h{
     font-size:medium!important;
@@ -236,6 +237,7 @@ font-size: 30px!important;
        width: 100%;
        min-height: 350px!important;
        filter: drop-shadow(1px 1px 1px black);
+       overflow-x: hidden;
     }  
     #review-content{
       font-size:x-small!important;
