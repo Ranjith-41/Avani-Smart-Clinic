@@ -9,7 +9,7 @@ import './Header.css';
 const Header = () => {
   return (
     <Navbar id="navbar" expand="lg">
-      <Container fluid>
+      <Container>
         {/* Brand Name */}
         <Navbar.Brand id="navbar-brand" as={Link} to="/">
         <img id="logo"
