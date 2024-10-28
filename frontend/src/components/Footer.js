@@ -27,7 +27,7 @@ const Footer = () => {
           </Col> 
             
          
-          <Col md={4} xs={5} className="text-md-right" id="footer3">
+          <Col md={4} xs={7} className="text-md-right" id="footer3">
             <h3 id="footer-h3">Follow Us</h3>
             <a href="https://www.facebook.com/p/Avanika-baby-clinic-Pollachi-100063693440137/" className="text-light mx-2" id="icon">
             <img src="/image/fb-icon.png" alt="Facebook Icon" id="icon1"/>
