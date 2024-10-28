@@ -14,7 +14,7 @@ const Footer = () => {
 
             <p>Avani Smart Children's Clinic offers top-tier pediatric care with services like immunization, asthma management, developmental care, and nutritional guidance. It provides a holistic approach to child health, ensuring personalized and compassionate treatment for each patient.</p>
             </Col>
-          <Col md={4} xs={6} className="text-center ">
+          <Col md={4} xs={5} className="text-center ">
 
             <h4 id="footer-h4">Contact Us</h4>
             <p id="text2">
