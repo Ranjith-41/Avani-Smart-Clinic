@@ -64,7 +64,7 @@ const position = [10.662811993208765, 77.01072816547148];
 
 // Define the custom location icon
 const customIcon = L.icon({
-  iconUrl:'/image/location.png', // Location pin image
+  iconUrl:'/image/location-icon.png', // Location pin image
   iconSize: [68, 68], // Adjust icon size
   iconAnchor: [29, 58], // Position the icon correctly
   popupAnchor: [0, -38], // Position the popup relative to the icon

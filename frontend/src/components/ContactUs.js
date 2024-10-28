@@ -43,7 +43,11 @@ const ContactUs = () => {
         <Row id="two">
           <Col md={6} sm={12}>
             <h2 id="contact-h2">Our Address</h2>
-            <p id="contact-p">Sakthi Polyclinic, <br />93, New Scheme Road, <br />Pollachi - 642002.<br />Phone: 95850 26625</p>
+            <p id="contact-p">Sakthi Polyclinic, <br />93, New Scheme Road, <br />Pollachi - 642002.<br />
+            <img src="/image/phone.png" alt="mobile Icon" id="icon-ph"/> 95850 26625
+            
+            </p>
+            
           </Col>
           <Col id="contact-map" md={6} sm={12}>
             <Map />

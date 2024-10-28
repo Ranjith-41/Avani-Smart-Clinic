@@ -21,17 +21,20 @@ const Footer = () => {
             Sakthi Polyclinic,<br/>
             93, New Scheme Road,<br />
             Pollachi - 642002<br />
-            Phone: 95850 26625<br />
+            <img src="/image/phone.png" alt="mobile Icon" id="icon-ph"/>
+             95850 26625<br />
             </p>
           </Col> 
             
          
           <Col md={4} xs={6} className="text-md-right" id="footer3">
             <h3 id="footer-h3">Follow Us</h3>
-            <a href="https://www.facebook.com/p/Avanika-baby-clinic-Pollachi-100063693440137/" className="text-light mx-2 "id="icon" >
-              <i id="icon1" className="fab fa-facebook"></i>Avanika baby clinic</a><br/>
+            <a href="https://www.facebook.com/p/Avanika-baby-clinic-Pollachi-100063693440137/" className="text-light mx-2" id="icon">
+            <img src="/image/fb-icon.png" alt="Facebook Icon" id="icon1"/>
+            Avanika Baby Clinic
+            </a><br/>
             <a href="https://www.instagram.com/childhealth_dr.amutha/"id="icon" className="text-light mx-2">
-              <i id="icon1" className="fab fa-instagram" ></i>childhealth_dr.amutha </a>
+            <img src="/image/insta-icon.png" alt="InstagramIcon" id="icon2"/>childhealth_dr.amutha </a>
           </Col>
         </Row>
         <hr className="bg-light" />
