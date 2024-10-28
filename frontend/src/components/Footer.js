@@ -27,13 +27,13 @@ const Footer = () => {
           </Col> 
             
          
-          <Col md={4} xs={6} className="text-md-right" id="footer3">
+          <Col md={4} xs={5} className="text-md-right" id="footer3">
             <h3 id="footer-h3">Follow Us</h3>
             <a href="https://www.facebook.com/p/Avanika-baby-clinic-Pollachi-100063693440137/" className="text-light mx-2" id="icon">
             <img src="/image/fb-icon.png" alt="Facebook Icon" id="icon1"/>
             Avanika Baby Clinic
             </a><br/>
-            <a href="https://www.instagram.com/childhealth_dr.amutha/"id="icon" className="text-light mx-2">
+            <a href="https://www.instagram.com/childhealth_dr.amutha/"id="icon" className="text-light">
             <img src="/image/insta-icon.png" alt="InstagramIcon" id="icon2"/>childhealth_dr.amutha </a>
           </Col>
         </Row>

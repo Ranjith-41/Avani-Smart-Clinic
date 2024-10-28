@@ -13,15 +13,22 @@
     font-size: large;
     font-weight:500;
     text-decoration: none!important;
+    text-align: left!important;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    padding:0%;
    
 }
 #icon1{
     color: blue !important;
-    padding: 5px!important;
+    padding: 0!important;
     width: 60px; height:60px;
 }
 #icon2{
-    padding: 5px!important;
+    padding: 0%!important;
     width: 60px; height:60px;
 }
 #footer3{
@@ -52,11 +59,11 @@
     }
     #icon1{
        
-        padding: 3px!important;
+        padding: 0!important;
         width: 40px; height:40px;   
     }
     #icon2{
-        padding: 3px!important;
+        padding: 0!important;
         width: 40px; height:40px;   
     }
     .text{
