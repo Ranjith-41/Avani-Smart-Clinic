@@ -6,7 +6,7 @@
    /* background-color:#F9629F;*/
    background-image: url("/public/image/contact4.avif");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:100% 100%;
    
     height:auto;
 }

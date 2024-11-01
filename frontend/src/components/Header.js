@@ -7,8 +7,14 @@ import './Header.css';
 
 const Header = () => {
 
+   // State to control the expanded state of the Navbar
+  const [expanded, setExpanded] = useState(false);
+
+  // Function to close the menu when a link is clicked
+  const handleNavClick = () => setExpanded(false);
+
   return (
-    <Navbar id="navbar" expand="lg">
+    <Navbar id="navbar" expand="lg" expanded={expanded}>
       <Container fluid className="d-flex justify-content-between align-items-center w-100">
         {/* Brand Name */}
  
@@ -22,37 +28,37 @@ const Header = () => {
         </Navbar.Brand>
         
         {/* Toggle for mobile view */}
-        <Navbar.Toggle aria-controls="basic-navbar-nav"  />
+        <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={() => setExpanded(expanded ? false : true)} />
         
         {/* Navigation Links */}
         <Navbar.Collapse id="basic-navbar-nav" >
           <Nav id="content" className="flex-row me-auto">
             {/* Home Link */}
-            <Nav.Link id="link" as={Link} to="/">
+            <Nav.Link id="link" as={Link} to="/"  onClick={handleNavClick}>
               Home
             </Nav.Link>
             
             {/* About Us Link */}
-            <Nav.Link id="link" as={Link} to="/about">
+            <Nav.Link id="link" as={Link} to="/about"  onClick={handleNavClick}>
               About 
             </Nav.Link>
             
             {/* Services Link */}
-            <Nav.Link id="link" as={Link} to="/services">Services
+            <Nav.Link id="link" as={Link} to="/services"  onClick={handleNavClick}>Services
             </Nav.Link>
 
               {/* WellnessHub Link */}
-              <Nav.Link id="link" as={Link} to="/wellness">
+              <Nav.Link id="link" as={Link} to="/wellness"  onClick={handleNavClick}>
               Wellness Hub 
             </Nav.Link>
             
             {/* Immunization Link */}
-            <Nav.Link id="link" as={Link} to="/immunization">
+            <Nav.Link id="link" as={Link} to="/immunization"  onClick={handleNavClick}>
               Immunization
             </Nav.Link>
             
             {/* Contact Us Link */}
-            <Nav.Link id="link"  as={Link} to="/contact">
+            <Nav.Link id="link"  as={Link} to="/contact"  onClick={handleNavClick}>
               Contact Us
             </Nav.Link>
             
